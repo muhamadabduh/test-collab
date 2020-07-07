@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/pertanyaan', function() {
     return "view";
 });
+
+Route::get('/dari-abduh', function(){
+    return "OKE";
+});
